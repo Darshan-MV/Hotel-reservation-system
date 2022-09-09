@@ -1,0 +1,33 @@
+<div class="body">
+    <div class="global-container">
+        <div class="card login-form">
+            <div class="card-body">
+                <h1 class="card-title text-center">LOGIN</h1>
+                <div class="card-text">
+                    <form>
+                        <div class="form-group">
+                            <label for="InputEmail">Email Address</label>
+                            <input type="email" class="form-control form-control-sm" id="InputEmail" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputPassword1">Password</label>
+                            <a href="#" style="float: right; font-size: 12px;">
+                          Forgot Password?
+                      </a>
+                            <input type="password" class="form-control form-control-sm" id="InputPassword1" />
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block" routerLink="/user/uhome" routerLinkActive="active-link">
+                      Sign In
+                  </button>
+
+                        <div class="signup">
+                            Don't have an account?<a routerLink="/auth/signup" routerLinkActive="active-link">Create One</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

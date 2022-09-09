@@ -1,0 +1,17 @@
+.heading {
+    font-weight: 800;
+}
+
+.contact-section {
+    width: 100%;
+}
+
+.div1 {
+    width: 47%;
+    height: 100%;
+    padding: 20px;
+    float: left;
+    text-align: left;
+    font-size: 19px;
+    padding-left: 5%;
+}

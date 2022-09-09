@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.items.img {
+    size: 5px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px !important;
+    grid-row-gap: 30px !important;
+}
+
+.item {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.item h4 {
+    padding: 5px;
+    text-align: center;
+}
+
+.item button {
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(79, 214, 226);
+    color: rgb(255, 255, 255);
+    cursor: cell;
+    border-radius: 4px;
+}

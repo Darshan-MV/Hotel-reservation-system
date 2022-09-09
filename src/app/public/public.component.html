@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+    <div class="container-fluid">
+        <a class="navbar-brand " routerLink="">Hotel Reservation System</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" routerLink="/public/phome">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" routerLink="/public/pabout" routerLinkActive="active-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" routerLink="/auth/userlogin" routerLinkActive="active-link">User Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" routerLink="/auth/adminlogin" routerLinkActive="active-link">Admin Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" routerLink="/public/pcontact" routerLinkActive="active-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<router-outlet></router-outlet>
+<div class="container-fluid footer">
+    <div class="row">
+        <div class="foot">
+            <p class="abc">Hotel Reservation System,Crafted with <i class="bi bi-heart-fill"></i> by team</p>
+        </div>
+
+    </div>
+
+</div>
